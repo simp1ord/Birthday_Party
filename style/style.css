@@ -33,6 +33,11 @@
   background-color: #ccfaff;
   border-radius: 20px;
   padding: 16px;
+  transition: .6s;
+}
+
+#where:hover {
+  transform: scale(1.2);
 }
 
 #when {
@@ -44,6 +49,11 @@
   background-color: #ccfaff;
   border-radius: 20px;
   padding: 16px;
+  transition: .6s;
+}
+
+#when:hover {
+  transform: scale(1.2);
 }
 
 .title {
@@ -72,7 +82,7 @@
   border: 2px solid white;
   padding: 16px;
   width: 200px;
-  transition: 1s;
+  transition: .6s;
 }
 .moreInfo:hover {
   transform: scale(1.2);
@@ -89,12 +99,12 @@
   height: 200px;
   border-radius: 20px;
   border: 1px solid black;
-  transition: 1s;
+  transition: .6s;
   object-fit: cover;
 }
 
 .birthdayImage:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
   border-color: white;
 }
 
@@ -122,6 +132,11 @@
   width: 700px;
   height:400px;
   position: relative;
+  transition: .3s;
+}
+
+#foodSlider:hover{
+  transform: scale(1.2);
 }
 
 .food {
@@ -253,4 +268,5 @@
 
 a {
   text-decoration: none;
+  color: black;
 }
