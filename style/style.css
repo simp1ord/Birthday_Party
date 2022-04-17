@@ -103,9 +103,11 @@
   object-fit: cover;
 }
 
+
 .birthdayImage:hover {
   transform: scale(1.2);
   border-color: white;
+
 }
 
 #foodSection {
